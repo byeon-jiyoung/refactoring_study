@@ -1,4 +1,4 @@
-package refactoring_study.remove_control_flag_simple_database;
+package refactoring_study.remove_control_flag_simple_database2;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-public class SimpleDatabase {
+public class SimpleDatabase { //74p
 	private Map<String, String> map = new HashMap<>();
 
 	public SimpleDatabase(Reader r1) throws IOException {
