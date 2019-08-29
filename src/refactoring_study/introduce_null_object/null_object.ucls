@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="refactoring_study.introduce_null_object.Person" project="refactoring_study" 
+    file="/refactoring_study/src/refactoring_study/introduce_null_object/Person.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="331" y="238"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="refactoring_study.introduce_null_object.Main" project="refactoring_study" 
+    file="/refactoring_study/src/refactoring_study/introduce_null_object/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="529" y="84"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="refactoring_study.introduce_null_object.Label" project="refactoring_study" 
+    file="/refactoring_study/src/refactoring_study/introduce_null_object/Label.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="141" width="102" x="640" y="170"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="refactoring_study.introduce_null_object.Label.NullLabel" 
+    project="refactoring_study" file="/refactoring_study/src/refactoring_study/introduce_null_object/Label.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="691" y="433"/>    
+    <display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="5">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="6" name="instance"/>      
+      <multiplicity id="7" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <dependency id="9">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <nesting id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <dependency id="11">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="12">    
+    <bendpoint x="512" y="168"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="13" name="mail"/>      
+      <multiplicity id="14" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="15">    
+    <bendpoint x="517" y="300"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="16" name="name"/>      
+      <multiplicity id="17" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="false" package="false" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
